@@ -9963,7 +9963,21 @@ ins {
 .team-content-block{
 	width: 60%;
 }
-@media (max-width: 567px){
+@media (max-width: 767px){
+	.team-content-block{
+		order: 2;
+	}
+	.team-image-block{
+		order: 1;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	.team-image-block img{
+		width: auto;
+		height: auto;
+		object-fit: unset;
+		max-width: 100%
+	}
 	.team-image-block,
 	.team-content-block{
 		width: 100%;
